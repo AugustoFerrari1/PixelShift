@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteRule ^inicio/$ index.php [L]
+
+RewriteRule ^diseño-web/$ planespaginas.php [L]
+
+RewriteRule ^ecommerce-uruguay/$ planestienda.php [L]
+
+RewriteRule ^gestion-empresarial/$ planessistema.php [L]
+
+Redirect 301 /old-url https://pixelshft.com/inicio/
+
+ErrorDocument 404 /index.php

@@ -1,0 +1,335 @@
+@import url('https://fonts.cdnfonts.com/css/tropi-land');
+@import url('https://fonts.cdnfonts.com/css/maria-2');
+
+.inicio .continicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh; 
+    text-align: center;
+    box-sizing: border-box;
+    font-family: "Vanquish W00 Bold";
+}
+
+
+.inicio  .continicio h1 {
+    position: relative;
+    top: 15px;
+    background: linear-gradient(360deg, #d7f7f782, #002233);
+    color: transparent;
+    background-clip: text;
+    font-size: 70px;
+    z-index: 0;
+}
+
+.inicio  .continicio h2 {
+    background: linear-gradient(240deg, #2998fa, rgb(236, 252, 252));
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.425), 0 0 25px rgba(0, 255, 255, 0.336);
+    font-size: 140px;
+    color: transparent;
+    background-clip: text;
+    font-family: 'Tropi Land', sans-serif;
+    -webkit-background-clip: text;
+    z-index: 1;
+    transform: scaleY(1.8);
+}
+
+
+.inicio  .continicio p {
+    margin-top: 2.5%;
+    color: #d7f7f7;
+    font-family: "PT Sans Nflecha", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.inicio .continicio p span {
+    font-family: "Vanquish W00 Bold";
+    font-weight: normal;
+    color: #aaf5f5;
+}
+
+.inicio  .bottones {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inicio  .bottones .button {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000000;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.inicio .svgIcon {
+    width: 42px;
+    transition-duration: 0.3s;
+}
+
+.inicio  .svgIcon path {
+    fill: #d7f7f7;
+}
+
+.planes .card .titulo {
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #f8fafc90;
+    background-color: #002233;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    width: 77px;
+    padding-left: 8px;
+}
+
+.planes .card .titulo2 {
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #f8fafc90;
+    background-color: #002233;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    width: 89px;
+    padding-left: 8px;
+}
+
+.planes .card .titulo3 {
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #f8fafc90;
+    background-color: #002233;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    width: 73px;
+    padding-left: 8px;
+}
+
+@media (max-width: 1366px) {
+
+    .inicio  .continicio {
+        margin-top: 30px;
+    }
+
+    .inicio  .continicio h1 {
+        font-size: 55px;
+        top: 9px;
+    }
+
+    .inicio  .continicio h2 {
+        font-size: 130px;
+    }
+
+    .inicio  .continicio p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 1359px) {
+
+    .inicio  .continicio {
+        margin-top: 30px;
+    }
+
+    .inicio  .continicio h1 {
+        font-size: 55px;
+    }
+
+    .inicio  .continicio h2 {
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .inicio .continicio h1 {
+        font-size: 55px;
+    }
+
+    .inicio .continicio h2 {
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 1124px) {
+
+    .inicio  .continicio h1 {
+        font-size: 50px;
+    }
+
+    .inicio  .continicio h2 {
+        font-size: 110px;
+    }
+
+    .inicio  .continicio p {
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 1080px){
+    .inicio .continicio h1 {
+        font-size: 45px;
+    }
+
+    .inicio .continicio h2 {
+        font-size: 100px;
+    }
+}
+
+
+@media (max-width: 907px) {
+
+    .inicio  .continicio h1 {
+        font-size: 40px;
+    }
+
+    .inicio  .continicio h2 {
+        font-size: 90px;
+    }
+
+    .inicio  .continicio p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .inicio  .continicio h1 {
+        font-size: 33px;
+        top: 5px;
+    }
+
+    .inicio  .continicio h2 {
+        font-size: 70px;
+    }
+
+    .inicio  .continicio p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 662px) {
+
+    .inicio  .continicio h1 {
+        font-size: 30px;
+    }
+
+    .inicio  .continicio h2 {
+        font-size: 60px;
+    }
+
+    .inicio  .continicio p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .inicio  .continicio h1 {
+        font-size: 25px;
+    }
+
+    .inicio  .continicio h2 {
+        font-size: 50px;
+    }
+
+    .inicio  .continicio p {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 485px) {
+
+    .inicio  .continicio h1 {
+        font-size: 23px;
+        top: 5px;
+    }
+
+    .inicio  .continicio h2 {
+        font-size: 45px;
+    }
+
+    .inicio  .continicio p {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 396px) {
+
+    .inicio  .continicio h1 {
+        font-size: 17px;
+        top: 0px;
+    }
+
+    .inicio  .continicio h2 {
+        font-size: 33px;
+    }
+
+    .inicio  .continicio p {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 303px) {
+
+    .inicio  .continicio h1 {
+        font-size: 15px;
+    }
+
+    .inicio  .continicio h2 {
+        font-size: 27px;
+    }
+
+    .inicio  .continicio p {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width: 235px) {
+
+    .inicio  .continicio h1 {
+        font-size: 10px;
+        top: -4px;
+    }
+
+    .inicio  .continicio h2 {
+        font-size: 20px;
+    }
+
+    .inicio  .continicio p {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 9px;
+    }
+
+}

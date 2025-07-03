@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans+Nflecha:wght@400;700&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/dd98d11272072fd1f3c61b727b0e75e9?family=Vanquish+W00+Bold);
+@import url('https://fonts.cdnfonts.com/css/tropi-land');
+@import url('https://fonts.cdnfonts.com/css/maria-2');
+
+                
+
+:root {
+  --primary-color: #0ea5e9;
+  --secondary-color: #f8fafc;
+  --accent-color: #020617;
+}
+
+.inicio  .bottones {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inicio .bottones .button {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000000;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.inicio .svgIcon {
+    width: 42px;
+    transition-duration: 0.3s;
+}
+
+.inicio .svgIcon path {
+    fill: #d7f7f7;
+}
+
+.inicio .bottones .button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background: aqua;
+    box-shadow: 0 0 5px aqua, 0 0 25px aqua;
+    align-items: center;
+}
+
+.inicio .bottones .button:hover .svgIcon {
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+}
+
+.inicio .bottones .button::before {
+    position: absolute;
+    bottom: -20px;
+    content: "VER PLANES";
+    color: #000000;
+    font-size: 0px;
+}
+
+.inicio .bottones .button:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    transition-duration: 0.3s;
+}
+
+.inicio .bottones .comienza {
+    position: relative;
+    width: 10%;
+    border: 0;
+    z-index: 1;
+    transition: 0.5s;
+    min-width: 160px;
+    padding: 16px 32px;
+    font-size: 14px;
+    line-height: 1;
+    font-family: "Vanquish W00 Bold";
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px 15px;
+    text-transform: uppercase;
+    background: #000000; 
+    color: #d7f7f7;
+}
+
+.inicio .bottones .comienza::before,
+.inicio .bottones .comienza::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+.inicio .bottones .comienza.--brillo:hover {
+    background: aqua;
+    box-shadow: 0 0 5px aqua, 0 0 25px aqua;
+    color: #000000;
+}
+
+.planes {
+    background-image: url(../img/stacked-waves-haikei\ \(2\).svg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+
+.planes .nombre {
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.planes .contcards {
+    margin: 5% 0 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.planes .card {
+    position: relative;
+    margin-right: -16px;
+    margin-left: 2.7%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 32px;
+    width: 380px;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.034);
+    padding: 24px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.planes .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.planes .card .cabezal {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.planes .card .precio {
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    color: #002233;
+    margin-top: 10%;
+}
+
+.planes .card .precio span {
+    position: relative;
+    right: 18px;
+    color: #002233;
+    font-size: 8px;
+}
+
+.planes .card .desc {
+  margin-top: 25px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  line-height: 26px;
+  font-size: 15px;
+  color: #00223383;
+}
+
+.planes .card .line {
+    margin-top: 5%;
+    background-color: #0022336c;
+    width: 330px;
+    height: 2px;
+    border-radius: 16px;
+}
+
+.planes .card .listas {
+    margin-top: 44px;
+    margin-bottom: 24px;
+    flex: 1 1 0%;
+    color: #002233;
+}
+
+.planes .card .listas .esp {
+    margin-bottom: 8px;
+    display: flex;
+    margin-left: 8px;
+}
+
+.planes .card .listas .esp svg {
+    height: 24px;
+    width: 24px;
+    flex-shrink: 0;
+    margin-right: 8px;
+    position: relative;
+    bottom: 3px;
+    color: #002233;
+}
+
+.planes .card .listas .sistienda {
+    display: block;
+}
+
+.planes .card .listas p{
+    font-size: 16px;
+}
+
+.planes .card .listas .descp {
+    font-size: 10px;
+    color: #002233;
+}
+
+.planes .card .elegir {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #002233;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #f8fafc;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.planes .card .elegir:hover {
+    background: aqua;
+    box-shadow: 0 0 5px aqua, 0 0 25px aqua;
+}
+
+.planes .masinfo {
+    text-align: center;
+}
+
+.planes .masinfo p {
+    font-size: 10px;
+}
+
+.planes  .bottones {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.planes .bottones .button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background: aqua;
+    box-shadow: 0 0 5px aqua, 0 0 25px aqua;
+    align-items: center;
+}
+
+.planes .bottones .button:hover .svgIcon {
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+}
+
+.planes .bottones .button::before {
+    position: absolute;
+    bottom: -20px;
+    content: "PLANIFICA YA";
+    color: #000000;
+    font-size: 0px;
+}
+
+.planes .bottones .button:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    transition-duration: 0.3s;
+}
+
+
+.planes .subnombre {
+    text-align: center;
+}
+
+.planes .subnombre h2 {
+    color: #000000;
+    user-select: none;
+}
+
+.planes .subnombre .p1 {
+    color: #377ebb;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
+
+
+.planes .bottones .button {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000000;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.planes .svgIcon {
+    width: 42px;
+    transition-duration: 0.3s;
+}
+
+.planes  .svgIcon path {
+    fill: #d7f7f7;
+}
+
+@media (max-width: 767px) {
+    .planes .nombre {
+        margin-left: 10%;
+    }
+
+    .planes .card {
+        position: relative;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 506px) {
+    .planes .subnombre h2 {
+        font-size: 15px;
+    }
+    
+    .planes .subnombre .p1 {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 412px) {
+    .planes .card {
+        width: 90vw;
+    }
+
+    .planes .card .precio {
+        font-size: 15vw;
+    }
+    
+    .planes .card .precio span {
+        font-size: 4vw;
+    }
+    
+    .planes .card .desc {
+        font-size: 4vw;
+        margin-right: 14vw;
+        margin-top: 10vw;
+        font-weight: 600;
+        margin-bottom: 4px;
+        line-height: 26px;
+    }
+      
+    
+    .planes .card .line {
+        width: 77vw;
+    }
+    
+    .planes .card .listas .esp svg {
+        height: 14px;
+        width: 14px;
+        bottom: 0px;
+    }
+
+    .planes .card .listas p {
+        font-size: 4vw;
+    }
+
+    .planes .card .listas .descp {
+        font-size: 2.3vw;
+    }
+    
+    .planes .card .elegir {
+        border: none;
+        outline: none;
+        display: inline-block;
+        border-radius: 8px;
+        background-color: #002233;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        color: #f8fafc;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    
+    .planes .masinfo p {
+        font-size: 10px;
+    }
+    
+    .planes  .bottones {
+        gap: 20px;
+    }
+    
+    .planes .bottones .button:hover {
+        width: 140px;
+    }
+    
+}
+
