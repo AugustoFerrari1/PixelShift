@@ -3,5 +3,7 @@ Allow: /
 Disallow: /admin/
 Disallow: /login/
 Disallow: /cart/
+Disallow: /pixelshift/
+
 
 Sitemap: https://pixelshft.com/sitemap.xml

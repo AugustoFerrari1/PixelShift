@@ -18,28 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
-
-  document.getElementById('verMasTienda').addEventListener('click', function () {
-    const serviciosSection = document.querySelector('#servicios');
-    if (serviciosSection) {
-      serviciosSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  });
-
-  document.getElementById('verMasSitios').addEventListener('click', function () {
-    const serviciosSection = document.querySelector('#servicios');
-    if (serviciosSection) {
-      serviciosSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  });
-
-  document.getElementById('verMasGestion').addEventListener('click', function () {
-    const serviciosSection = document.querySelector('#servicios');
-    if (serviciosSection) {
-      serviciosSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  });
-
   const buttonlink = document.querySelectorAll('.ver-planes');
 
   buttonlink.forEach((button) => {
@@ -111,23 +89,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   initCursor();
   updateCursor();
-
-  let carousel = document.querySelector('.carousel');
-  let listHTML = document.querySelector('.carousel .list');
-
-  const showSlider = (type) => {
-    carousel.classList.remove('next', 'prev');
-    let items = document.querySelectorAll('.carousel .list .item');
-    if (type === 'next') {
-      listHTML.appendChild(items[0]);
-      carousel.classList.add('next');
-    }
-  };
-
-  setInterval(() => {
-    showSlider('next');
-  }, 5000);
-
   const numEstrellas = 200;
   const bodyHeight = document.body.scrollHeight;
 

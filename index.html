@@ -31,7 +31,8 @@ if (isset($_POST['enviarcorreo'])) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Diseño Web, Tiendas Online y Sistemas de Gestión en Uruguay</title>
-        <link rel="stylesheet" href="https://pixelshft.com/css/in.css">
+        <link rel="stylesheet" href="./css/in.css">
+        <link rel="stylesheet" href="./css/carousel.css">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <link rel="icon" href="https://pixelshft.com/img/logovent.png">
@@ -47,8 +48,13 @@ if (isset($_POST['enviarcorreo'])) {
         <meta property="og:image" content="https://i.imgur.com/ebfHMaA.png">
         <meta property="og:url" content="https://pixelshft.com">
         <meta property="og:type" content="website">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet">
     </head>
 <body>
+    <style>
+        
+    </style>
     <svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
         <defs>
             <filter id="goo">
@@ -75,47 +81,74 @@ if (isset($_POST['enviarcorreo'])) {
             <h1>Diseño Web, Tiendas Online y Sistemas de Gestión en Uruguay</h1>
         </div>
         <section class="inicio">
-            <div class="carousel">
-                <div class="list">
-                    <div class="item">
-                        <img src="https://pixelshft.com/images/img1.webp" alt="Diseño de sitios web personalizados en Uruguay" loading="lazy">
-                        <div class="infocar">
-                            <h2 class="servinombre">SITIOS WEB</h2>
-                            <div class="des">
-                                <p>Impulsa tu presencia digital con nuestros servicios de diseño web en Uruguay.
-                                En PixelShift, ofrecemos planes personalizados de desarrollo y diseño web adaptados a todas las necesidades y presupuestos. Desde sitios web básicos hasta plataformas avanzadas, te ayudamos a transformar tu negocio y llevarlo a un nuevo nivel de éxito. Aumenta tu visibilidad online con soluciones efectivas que mejoren la experiencia de tus usuarios y optimicen tu rendimiento en los motores de búsqueda (SEO)</p>
-                            </div>
-                            <button type="button" id="verMasSitios" class="verMas --brillo">VER MAS</button>
+            <div class="js-slick-carousel">
+                <div class="js-slide">
+                    <div class="slide-content">
+                        <div class="text-section">
+                            <h2 class="fadeInUp">
+                                SISTEMAS DE GESTIÓN
+                            </h2>
+                            <p class="fadeInUp fadeInUp-delay-200">
+                                Optimiza la gestión de tu negocio con nuestros sistemas de gestión a medida. 
+                                Con nuestros sistemas de gestión empresarial personalizados, podrás controlar 
+                                y optimizar todos los aspectos de tu negocio.
+                            </p>
+                            <button type="button" id="verMasGestion" class="verMas">VER MÁS</button>
+                        </div>
+                        <div class="image-section">
+                            <img src="https://pixelshft.com/images/gestion.webp" 
+                                alt="Gestión" class="side-image fadeInRight fadeInRight-delay-400">
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="https://pixelshft.com/images/gestion.webp" alt="Sistemas de gestión personalizados en Uruguay" loading="lazy">
-                        <div class="infocar">
-                            <h2 class="servinombre">SISTEMAS DE <br>GESTION</h2>
-                            <div class="des">
-                            <p>Optimiza la gestión de tu negocio con nuestros sistemas de gestion a medida
-                            Con nuestros sistemas de gestión empresarial personalizados, podrás controlar y optimizar todos los aspectos de tu negocio. Desde la administración de inventarios hasta el seguimiento de clientes, nuestras soluciones te ofrecen las herramientas necesarias para gestionar eficientemente tu empresa y hacerla crecer de forma profesional. Descubre cómo nuestros software de gestión te ayudará a tomar decisiones estratégicas, aumentar la productividad y mejorar la rentabilidad de tu negocio.</p>
-                            </div>
-                            <button type="button" id="verMasGestion" class="verMas --brillo">VER MAS</button>
+                </div>
+
+                <div class="js-slide">
+                    <div class="slide-content">
+                        <div class="text-section">
+                            <h2 class="fadeInUp">
+                                TIENDAS ONLINE
+                            </h2>
+                            <p class="fadeInUp fadeInUp-delay-200">
+                                Haz crecer tu negocio con una tienda online personalizada. 
+                                Lleva tu negocio al siguiente nivel con una tienda online a medida.
+                            </p>
+                            <button type="button"  id="verMasTienda" class="verMas">VER MÁS</button>
+                        </div>
+                        <div class="image-section">
+                            <img src="https://pixelshft.com/images/tiendaonline.webp" 
+                                alt="Tienda Online" class="side-image fadeInRight fadeInRight-delay-400">
                         </div>
                     </div>
-        
-                    <div class="item">
-                        <img src="https://pixelshft.com/images/tiendaonline.webp" alt="Tiendas online en Uruguay" loading="lazy">
-                        <div class="infocar">
-                            <h2 class="servinombre">TIENDAS ONLINE</h2>
-                            <div class="des">
-                                <p>Haz crecer tu negocio con una tienda online personalizada
-                                Lleva tu negocio al siguiente nivel con una tienda online a medida. Desde la primera visita hasta el checkout, nuestros planes de e-commerce están diseñados para brindarte una experiencia de compra fluida y sin barreras, asegurando que tus clientes disfruten de una navegación ágil y segura. Aumenta tus ventas online y llega a tus clientes dondequiera que estén, con una plataforma optimizada para maximizar conversiones y potenciar el crecimiento de tu negocio.</p>    
-                            </div>
-                            <button type="button" id="verMasTienda" class="verMas --brillo">VER MAS</button>
+                </div>
+
+                <div class="js-slide">
+                    <div class="slide-content">
+                        <div class="text-section">
+                            <h2 class="fadeInUp">
+                                SITIOS WEB
+                            </h2>
+                            <p class="fadeInUp fadeInUp-delay-200">
+                                Impulsa tu presencia digital con nuestros servicios de diseño web. 
+                                Ofrecemos planes personalizados adaptados a todas las necesidades.
+                            </p>
+                            <button type="button" id="verMasSitios"  class="verMas">VER MÁS</button>
+                        </div>
+                        <div class="image-section">
+                            <img src="https://pixelshft.com/images/img1.webp" 
+                                alt="Diseño Web" class="side-image fadeInRight fadeInRight-delay-400">
                         </div>
                     </div>
                 </div>
             </div>
-            <svg class="onda" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#8bc6f9" fill-opacity="1" d="M0,256L60,266.7C120,277,240,299,360,266.7C480,235,600,149,720,138.7C840,128,960,192,1080,197.3C1200,203,1320,149,1380,122.7L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
-            </svg>
+        
+        <!-- SVG Wave Overlay - AQUÍ ESTÁ LA SOLUCIÓN -->
+            <div class="wave-overlay">
+                <svg class="onda" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#8bc6f9" fill-opacity="1" 
+                        d="M0,256L60,266.7C120,277,240,299,360,266.7C480,235,600,149,720,138.7C840,128,960,192,1080,197.3C1200,203,1320,149,1380,122.7L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
         </section>
     </header>
     <section class="servicios">
@@ -336,6 +369,78 @@ if (isset($_POST['enviarcorreo'])) {
             </div>
         </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Configuración del carousel
+            $('.js-slick-carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                autoplay: true,
+                autoplaySpeed: 5000,
+                pauseOnHover: true,
+                pauseOnFocus: true,
+                prevArrow: '<button type="button" class="slick-prev slick-arrow slick-arrow-soft-white slick-arrow-left slick-arrow-centered-y rounded-circle"><i class="fas fa-arrow-left"></i></button>',
+                nextArrow: '<button type="button" class="slick-next slick-arrow slick-arrow-soft-white slick-arrow-right slick-arrow-centered-y rounded-circle"><i class="fas fa-arrow-right"></i></button>',
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        dots: true
+                    }
+                }]
+            });
+            
+            // Función para reiniciar animaciones
+            function resetAnimations($slide) {
+                $slide.find('[data-hs-slick-carousel-animation]').each(function() {
+                    const $element = $(this);
+                    const animationClass = $element.attr('data-hs-slick-carousel-animation');
+                    const delay = $element.attr('data-hs-slick-carousel-animation-delay') || 0;
+                    
+                    // Remover clases de animación
+                    $element.removeClass(animationClass);
+                    
+                    // Aplicar animación después del delay
+                    setTimeout(() => {
+                        $element.addClass(animationClass);
+                    }, parseInt(delay));
+                });
+            }
+            
+            // Manejar eventos del carousel
+            $('.js-slick-carousel').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+                // Remover animaciones del slide actual
+                $(slick.$slides[currentSlide]).find('[data-hs-slick-carousel-animation]').each(function() {
+                    const animationClass = $(this).attr('data-hs-slick-carousel-animation');
+                    $(this).removeClass(animationClass);
+                });
+            });
+            
+            $('.js-slick-carousel').on('afterChange', function(event, slick, currentSlide) {
+                // Aplicar animaciones al nuevo slide
+                resetAnimations($(slick.$slides[currentSlide]));
+            });
+            
+            // Aplicar animaciones iniciales
+            resetAnimations($('.js-slick-carousel .slick-active'));
+            
+            // Soporte para navegación por teclado
+            $(document).keydown(function(e) {
+                if (e.keyCode === 37) { // Flecha izquierda
+                    $('.js-slick-carousel').slick('slickPrev');
+                } else if (e.keyCode === 39) { // Flecha derecha
+                    $('.js-slick-carousel').slick('slickNext');
+                }
+            });
+        });
+    </script>
     <script src="https://pixelshft.com/js/in.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
