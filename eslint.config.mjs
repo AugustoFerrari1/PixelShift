@@ -5,7 +5,7 @@ import { defineConfig } from 'eslint/config';
 
 export default defineConfig([
   {
-    ignores: ['node_modules', 'dist', 'build'], // reemplaza .eslintignore
+    ignores: ['node_modules', 'dist', 'build'],
   },
   {
     files: ['**/*.{js,mjs,cjs}'],
@@ -26,7 +26,7 @@ export default defineConfig([
     },
     rules: {
       ...js.configs.recommended.rules,
-      'prettier/prettier': 'error', // habilita prettier como regla
+      'prettier/prettier': 'error',
       'no-unused-vars': 'off',
     },
   },

@@ -104,7 +104,7 @@ if (isset($_POST['enviarcorreo'])) {
                 <h2 class="titulo">Starter</h2>
                 <h2 class="precio">U$D 99 <span>/unico</span></h2>
                 </div>
-                <p class="desc">Te ayudamos a enfocarte en aumentar tus ventas y visibilidad sin complicaciones.</p>
+                <p class="desc">Ideal para arrancar online sin vueltas. Te ayudamos a potenciar tus ventas y que tu marca se vea más fácil</p>
                 <div class="line"></div>
                 <ul class="listas">
                     <li class="esp">
@@ -129,7 +129,7 @@ if (isset($_POST['enviarcorreo'])) {
                     </li>
                     <li class="esp">
                         <div class="svg-contenedor scroll-carga" data-src="<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'><mask id='lineMdConfirmCircleFilled0'><g fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'><path fill='#fff' fill-opacity='0' stroke-dasharray='64' stroke-dashoffset='64' d='M3 12c0 -4.97 4.03 -9 9 -9c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9Z'><animate fill='freeze' attributeName='fill-opacity' begin='0.6s' dur='0.5s' values='0;1'/><animate fill='freeze' attributeName='stroke-dashoffset' dur='0.6s' values='64;0'/></path><path stroke='#000' stroke-dasharray='14' stroke-dashoffset='14' d='M8 12l3 3l5 -5'><animate fill='freeze' attributeName='stroke-dashoffset' begin='1.1s' dur='0.2s' values='14;0'/></path></g></mask><rect width='24' height='24' fill='#002233' mask='url(#lineMdConfirmCircleFilled0)'/></svg>"></div>
-                        <p>50 Productos</p>
+                        <p>Hasta 50 Productos</p>
                     </li>
                     <li class="esp">
                         <div class="svg-contenedor scroll-carga" data-src="<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'><mask id='lineMdConfirmCircleFilled0'><g fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'><path fill='#fff' fill-opacity='0' stroke-dasharray='64' stroke-dashoffset='64' d='M3 12c0 -4.97 4.03 -9 9 -9c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9Z'><animate fill='freeze' attributeName='fill-opacity' begin='0.6s' dur='0.5s' values='0;1'/><animate fill='freeze' attributeName='stroke-dashoffset' dur='0.6s' values='64;0'/></path><path stroke='#000' stroke-dasharray='14' stroke-dashoffset='14' d='M8 12l3 3l5 -5'><animate fill='freeze' attributeName='stroke-dashoffset' begin='1.1s' dur='0.2s' values='14;0'/></path></g></mask><rect width='24' height='24' fill='#002233' mask='url(#lineMdConfirmCircleFilled0)'/></svg>"></div>
@@ -175,7 +175,7 @@ if (isset($_POST['enviarcorreo'])) {
                     <h2 class="titulo2">Avanzado</h2>
                     <h2 class="precio">U$D 199 <span>/unico</span></h2>
                 </div>
-                <p class="desc">Impulsa tu negocio con herramientas avanzadas para destacar en un mercado competitivo y maximizar tus ventas.</p>
+                <p class="desc">Tu plan para crecer de verdad. Herramientas potentes para destacarte, atraer más clientes y disparar tus ventas</p>
                 <div class="line"></div>
                 <ul class="listas">
                     <li class="esp">
@@ -200,7 +200,7 @@ if (isset($_POST['enviarcorreo'])) {
                     </li>
                     <li class="esp">
                         <div class="svg-contenedor scroll-carga" data-src="<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'><mask id='lineMdConfirmCircleFilled0'><g fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'><path fill='#fff' fill-opacity='0' stroke-dasharray='64' stroke-dashoffset='64' d='M3 12c0 -4.97 4.03 -9 9 -9c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9Z'><animate fill='freeze' attributeName='fill-opacity' begin='0.6s' dur='0.5s' values='0;1'/><animate fill='freeze' attributeName='stroke-dashoffset' dur='0.6s' values='64;0'/></path><path stroke='#000' stroke-dasharray='14' stroke-dashoffset='14' d='M8 12l3 3l5 -5'><animate fill='freeze' attributeName='stroke-dashoffset' begin='1.1s' dur='0.2s' values='14;0'/></path></g></mask><rect width='24' height='24' fill='#002233' mask='url(#lineMdConfirmCircleFilled0)'/></svg>"></div>
-                        <p>150 Productos</p>
+                        <p>Hasta 150 Productos</p>
                     </li>
                     <li class="esp">
                         <div class="svg-contenedor scroll-carga" data-src="<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'><mask id='lineMdConfirmCircleFilled0'><g fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'><path fill='#fff' fill-opacity='0' stroke-dasharray='64' stroke-dashoffset='64' d='M3 12c0 -4.97 4.03 -9 9 -9c4.97 0 9 4.03 9 9c0 4.97 -4.03 9 -9 9c-4.97 0 -9 -4.03 -9 -9Z'><animate fill='freeze' attributeName='fill-opacity' begin='0.6s' dur='0.5s' values='0;1'/><animate fill='freeze' attributeName='stroke-dashoffset' dur='0.6s' values='64;0'/></path><path stroke='#000' stroke-dasharray='14' stroke-dashoffset='14' d='M8 12l3 3l5 -5'><animate fill='freeze' attributeName='stroke-dashoffset' begin='1.1s' dur='0.2s' values='14;0'/></path></g></mask><rect width='24' height='24' fill='#002233' mask='url(#lineMdConfirmCircleFilled0)'/></svg>"></div>
@@ -248,7 +248,7 @@ if (isset($_POST['enviarcorreo'])) {
                 <h2 class="titulo3">Integral</h2>
                 <h2 class="precio">U$D 349 <span>/unico</span></h2>
                 </div>
-                <p class="desc">Obtén una tienda online de alto rendimiento con funciones exclusivas y estrategias avanzadas para posicionarte como líder en tu industria y captar más clientes.</p>
+                <p class="desc">La solución Premium para tu negocio. Tu tienda online con funciones exclusivas, estrategias avanzadas y todo lo que necesitás para ser líder en tu sector</p>
                 <div class="line"></div>
                 <ul class="listas">
                     <li class="esp">
@@ -380,28 +380,45 @@ if (isset($_POST['enviarcorreo'])) {
                 <h2>PASOS A SEGUIR</h2>
                 <p class="p2">Pasos para planificar tu proyecto</p>
             </div>
-            <div class="container">
-                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><g fill="#00000"><path d="M16 20a1 1 0 1 0 0 2h7a1 1 0 1 0 0-2zm-1-4a1 1 0 0 1 1-1h15.5a1 1 0 1 1 0 2H16a1 1 0 0 1-1-1"/><path fill-rule="evenodd" d="M15 28a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm2 3v-2h2v2zm11 0a3 3 0 1 0 0-6a3 3 0 1 0 0 6m0-2a1 1 0 1 0 .002-1.998A1 1 0 0 0 28 29m-6 6.182C22 33.066 25.997 32 28 32s6 1.066 6 3.182V39H22zm2.055.04l-.055.057V37h8v-1.72l-.055-.059c-.164-.16-.48-.372-.976-.583c-1-.425-2.234-.638-2.969-.638s-1.969.213-2.969.638c-.496.21-.812.423-.976.583" clip-rule="evenodd"/><path fill-rule="evenodd" d="M17 7a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3h4a3 3 0 0 1 3 3v31a3 3 0 0 1-3 3H13a3 3 0 0 1-3-3V10a3 3 0 0 1 3-3zm11 5a3 3 0 0 0 3-3h4a1 1 0 0 1 1 1v31a1 1 0 0 1-1 1H13a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1h4a3 3 0 0 0 3 3zm-8-6a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1z" clip-rule="evenodd"/></g></svg>
-                    <h3 class="titulo">CONTACTANOS Y ASESORATE</h3>
-                    <br>
-                    <p class="desc">¡Contáctanos y recibe el asesoramiento que necesitas para llevar tu negocio al siguiente nivel! Estamos aquí para responder todas tus preguntas y ayudarte a encontrar la solución ideal para tu proyecto. Puedes escribirnos a través de nuestro formulario de contacto o directamente por WhatsApp para una comunicación rápida y personalizada. <br> ¡Estamos listos para ayudarte a hacer realidad tus ideas! <br> ‎ </p>
-                </div>
-                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/apoyo.png" alt="">
-                    <h3 class="titulo">CHARLAMOS Y PRESUPUESTAMOS</h3>
-                    <br>
-                    <p class="desc">Idearemos la mejor manera de llevar a cabo tu proyecto, tomando en cuenta tus necesidades y objetivos. Te ofreceremos un presupuesto personalizado y detallado para que tengas claro todo lo relacionado con la inversión y los servicios que te ofrecemos</p>
-                    <div class="button-container">
-                        <a href="#planes" class="button --brillo">PLANES</a>
+            <div class="steps-container">
+                <div class="progress-line"></div>
+                <div class="steps-grid">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <img src="https://pixelshft.com/img/formulario.png" alt="Formulario de contacto o WhatsApp para asesoramiento personalizado en PixelShift" class="step-icon">
+                        <div class="step-content">
+                            <h3 class="step-title">Contactanos y Asesorate</h3>
+                            <p class="step-description">
+                                Escribinos por WhatsApp o llená el formulario y te damos el <span class="highlight">asesoramiento</span> que necesitás para tu negocio. <br>
+                                <strong>Rápido</strong>, <strong>personalizado</strong> y <strong>sin vueltas</strong>. ¡Hablemos!
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/codigo.png" alt="">
-                    <h3 class="titulo">CREAMOS TU CODIGO</h3>
-                    <br>
-                    <p class="desc">Una vez que tengamos claro el proyecto y el presupuesto, comenzaremos con la creación del código. Durante esta fase, trabajaremos de manera eficiente para cumplir con los plazos establecidos, garantizando que cada línea de código esté bien estructurada y sea funcional. <br>
-                        El tiempo estimado de desarrollo depende de la complejidad del proyecto, pero siempre nos comprometemos a entregar resultados en tiempo y forma.</p>
+
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <img src="https://pixelshft.com/img/apoyo.png" alt="Reunión para presupuesto claro y a medida en servicios digitales de PixelShift" class="step-icon">
+                        <div class="step-content">
+                            <h3 class="step-title">Charlamos y Presupuestamos</h3>
+                            <p class="step-description">
+                                Nos contás tu idea, vemos qué necesitás y armamos la mejor forma de hacerlo realidad. 
+                                Te paso un <span class="highlight">presupuesto a medida</span>, claro y sin letra chica. 
+                                <br><strong>Así, simple.</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <img src="https://pixelshft.com/img/codigo.png" alt="Desarrollo web a medida con código limpio y optimizado por PixelShift" class="step-icon">
+                        <div class="step-content">
+                            <h3 class="step-title">Creamos tu Código</h3>
+                            <p class="step-description">
+                                Arrancamos con el desarrollo y nos enfocamos en que todo funcione bien desde el principio. 
+                                <span class="highlight">Código limpio, ordenado y hecho a medida</span> para tu proyecto.    
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="subnombre" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
@@ -409,46 +426,44 @@ if (isset($_POST['enviarcorreo'])) {
                 <p class="p1">Estos son datos importantes que debes conocer</p>
             </div>
             <div class="container">
-                <div  class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/foco.png" alt="">
-                    <h3 class="titulo">FUNCIONAMIENTO AMIGABLE</h3>
+                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
+                    <img src="https://pixelshft.com/img/foco.png" alt="Diseño intuitivo de tienda online con interfaz clara y fácil de usar">
+                    <h3 class="titulo">INTERFAZ INTUITIVA</h3>
                     <br>
-                    <p class="desc">
-                        Nuestro equipo diseña proyectos de manera intuitiva y accesible, asegurándose de que sean fáciles de usar y comprender para cualquier tipo de público.</p>
+                    <p class="desc">Diseñamos tu tienda online para que sea <strong>súper fácil de usar</strong>. Tus clientes van a navegar sin problemas y comprar en un toque, ¡desde cualquier dispositivo!</p>
                 </div>
-                <div  class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/diseno.png" alt="">
-                    <h3 class="titulo">DISEÑO QUE VENDE</h3>
+                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <img src="https://pixelshft.com/img/diseno.png" alt="Diseño profesional de tienda online pensado para aumentar ventas">
+                    <h3 class="titulo">DISEÑO ENFOCADO EN VENTAS</h3>
                     <br>
-                    <p class="desc">
-                        Diseñamos tu proyecto pensando estratégicamente en cada detalle. Nuestro servicio de diseño de tienda virtual en Uruguay está orientado a convertir visitantes en clientes, potenciar tus ventas y fortalecer tu marca.</p>
+                    <p class="desc">Creamos tu tienda online para <strong>vender más</strong>. Con un diseño atractivo y optimizado, vas a generar más conversiones y potenciar la presencia de tu marca.</p>
                 </div>
-                <div  class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/busqueda2.png" alt="">
-                    <h3 class="titulo">SEO y ACCESIBILIDAD</h3>
+                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+                    <img src="https://pixelshft.com/img/busqueda2.png" alt="Optimización SEO y accesibilidad para tiendas online en Uruguay">
+                    <h3 class="titulo">SEO Y ACCESIBILIDAD</h3>
                     <br>
-                    <p class="desc">Analizamos tu proyecto y desarrollamos una estrategia SEO personalizada para asegurarnos de que tu sitio se destaque en los motores de búsqueda, aumentando su visibilidad y alcance en Uruguay y más allá.</p>
+                    <p class="desc">Tu tienda online va a aparecer en Google. Aplicamos el mejor <strong>SEO para e-commerce</strong> y la hacemos accesible, atrayendo más tráfico cualificado y clientes a tus productos.</p>
                 </div>
-                <div  class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/pantallas.png" alt="">
-                    <h3 class="titulo">DESDE CELULARES Y TABLETS</h3>
+                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
+                    <img src="https://pixelshft.com/img/pantallas.png" alt="Diseño responsive para tienda online visible en celulares y tablets">
+                    <h3 class="titulo">RESPONSIVE EN TODOS LOS DISPOSITIVOS</h3>
                     <br>
-                    <p class="desc">La página será completamente responsive, adaptándose de forma óptima a cualquier dispositivo y resolución.</p>
+                    <p class="desc">Tu tienda online se va a ver <strong>perfecta en cualquier pantalla</strong>. Desarrollamos sitios totalmente responsive para que tus clientes tengan una experiencia fluida, desde el celular hasta la computadora.</p>
                 </div>
-                <div  class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/mantenimiento.png" alt="">
-                    <h3 class="titulo">MANTENIMIENTO</h3>
+                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <img src="https://pixelshft.com/img/mantenimiento.png" alt="Soporte y mantenimiento técnico para tiendas online">
+                    <h3 class="titulo">SOPORTE Y MANTENIMIENTO</h3>
                     <br>
-                    <p class="desc">El mantenimiento mensual o puntual es opcional y sin compromiso. Nos encargamos solo del desarrollo de la página web y ofrecemos soporte técnico ante cualquier inconveniente.</p>
+                    <p class="desc"><strong>¿Necesitás ayuda? Contá con nosotros.</strong> Te damos soporte continuo para resolver cualquier duda o problema y mantener tu sistema al día. ¡El mantenimiento es opcional y sin compromiso!</p>
                 </div>
-                <div  class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/host.png" alt="">
+                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+                    <img src="https://pixelshft.com/img/host.png" alt="Servicio adicional de hosting y dominio para tiendas online en Uruguay">
                     <h3 class="titulo">HOSTING Y DOMINIO</h3>
                     <br>
-                    <p class="desc">El hosting y los dominios no están incluidos en los precios de los planes, sin embargo, se pueden añadir como un servicio adicional si aún no cuenta con ellos. También ofrecemos soporte para dominios en Uruguay</p>
+                    <p class="desc">¿Necesitás un lugar para tu tienda online? Te ofrecemos <strong>hosting confiable</strong> y nos encargamos del <strong>dominio</strong>. Todo con soporte personalizado en Uruguay, ¡para que no te preocupes por nada!</p>
                 </div>
-            </div>
-        </div>
+            </div>  
+        </div>            
     </section>
     <section class="contacto">
         <div id="notification" class="notification" style="display:none;">

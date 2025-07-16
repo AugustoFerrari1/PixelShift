@@ -1,4 +1,4 @@
-<!-- <?php 
+ <?php 
 if (isset($_POST['enviarcorreo'])) {
     $nombre   = $_POST['nombre'];
     $email    = $_POST['email'];
@@ -23,7 +23,7 @@ if (isset($_POST['enviarcorreo'])) {
 }
 
 ?>
--->
+
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -52,9 +52,6 @@ if (isset($_POST['enviarcorreo'])) {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet">
     </head>
 <body>
-    <style>
-        
-    </style>
     <svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
         <defs>
             <filter id="goo">
@@ -89,15 +86,13 @@ if (isset($_POST['enviarcorreo'])) {
                                 SISTEMAS DE GESTIÓN
                             </h2>
                             <p class="fadeInUp fadeInUp-delay-200">
-                                Optimiza la gestión de tu negocio con nuestros sistemas de gestión a medida. 
-                                Con nuestros sistemas de gestión empresarial personalizados, podrás controlar 
-                                y optimizar todos los aspectos de tu negocio.
+                                Mejorá cómo manejás tu negocio con nuestros <span class="imp">sistemas de gestión a medida</span>. En <span class="imp">PixelShift</span> desarrollamos <span class="imp">software de gestión empresarial</span> pensado para vos, para que puedas llevar el control total: <span class="imp">clientes</span>, <span class="imp">inventarios</span>, <span class="imp">ventas</span> y más. Tomá <span class="imp">decisiones estratégicas</span>, aumentá tu <span class="imp">productividad</span> y hacé que tu negocio sea más <span class="imp">rentable</span> con herramientas que realmente te facilitan el trabajo.    
                             </p>
                             <button type="button" id="verMasGestion" class="verMas">VER MÁS</button>
                         </div>
                         <div class="image-section">
                             <img src="https://pixelshft.com/images/gestion.webp" 
-                                alt="Gestión" class="side-image fadeInRight fadeInRight-delay-400">
+                                alt="Sistema de gestión empresarial a medida desarrollado por PixelShift en Uruguay" class="side-image fadeInRight fadeInRight-delay-400">
                         </div>
                     </div>
                 </div>
@@ -109,14 +104,13 @@ if (isset($_POST['enviarcorreo'])) {
                                 TIENDAS ONLINE
                             </h2>
                             <p class="fadeInUp fadeInUp-delay-200">
-                                Haz crecer tu negocio con una tienda online personalizada. 
-                                Lleva tu negocio al siguiente nivel con una tienda online a medida.
+                                Hacé que tu negocio venda más con una <span class="imp">tienda online personalizada</span>. En <span class="imp">PixelShift</span> armamos plataformas de <span class="imp">e-commerce</span> pensadas para que tus clientes compren fácil, desde la primera visita hasta el <span class="imp">checkout</span>. Todo fluye rápido, seguro y sin vueltas. Aumentá tus <span class="imp">ventas online</span> y llegá a más personas con una tienda optimizada para <span class="imp">convertir</span> y hacer crecer tu negocio.    
                             </p>
                             <button type="button"  id="verMasTienda" class="verMas">VER MÁS</button>
                         </div>
                         <div class="image-section">
                             <img src="https://pixelshft.com/images/tiendaonline.webp" 
-                                alt="Tienda Online" class="side-image fadeInRight fadeInRight-delay-400">
+                                alt="Tienda online a medida en Uruguay, optimizada para ventas y e-commerce" class="side-image fadeInRight fadeInRight-delay-400">
                         </div>
                     </div>
                 </div>
@@ -128,20 +122,18 @@ if (isset($_POST['enviarcorreo'])) {
                                 SITIOS WEB
                             </h2>
                             <p class="fadeInUp fadeInUp-delay-200">
-                                Impulsa tu presencia digital con nuestros servicios de diseño web. 
-                                Ofrecemos planes personalizados adaptados a todas las necesidades.
+                                Dale un impulso real a tu <span class="imp">presencia digital</span> con nuestros servicios de <span class="imp">diseño web en Uruguay</span>. En <span class="imp">PixelShift</span> creamos <span class="imp">planes a medida</span>, adaptados a tu idea, tu negocio y tu bolsillo. Ya sea una web simple o una plataforma más completa, te ayudamos a crecer en serio. Mejorá la <span class="imp">experiencia de tus usuarios</span>, destacate en los buscadores con buen <span class="imp">SEO</span> y hacé que tu proyecto funcione de verdad.  
                             </p>
                             <button type="button" id="verMasSitios"  class="verMas">VER MÁS</button>
                         </div>
                         <div class="image-section">
                             <img src="https://pixelshft.com/images/img1.webp" 
-                                alt="Diseño Web" class="side-image fadeInRight fadeInRight-delay-400">
+                                alt="Diseño web profesional en Uruguay para mejorar presencia digital y SEO" class="side-image fadeInRight fadeInRight-delay-400">
                         </div>
                     </div>
                 </div>
             </div>
         
-        <!-- SVG Wave Overlay - AQUÍ ESTÁ LA SOLUCIÓN -->
             <div class="wave-overlay">
                 <svg class="onda" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                     <path fill="#8bc6f9" fill-opacity="1" 
@@ -158,7 +150,7 @@ if (isset($_POST['enviarcorreo'])) {
                 <div class="stipos-container">
                     <div data-aos="zoom-out-left">
                         <h3 class="stipos" id="tienda" data-aos="fade-down">Tienda Online <span class="mas">[+]</span></h3>
-                        <p class="desctienda">Crea tu tienda online y catapulta tus ventas, Adaptamos el modelo tu negocio a un ecommerce. Ve nuestros planes y escoge el que mas te convenga. Recuerda que puedes agrarle o quitarle caracteristicas a los planes, estas modificaciones aumentaran o disminuirán el precio</p>
+                        <p class="desctienda">Armá tu <span class="imp">tienda online</span> y empezá a vender más. En <span class="imp">PixelShift</span> adaptamos tu negocio al mundo <span class="imp">ecommerce</span> con planes que se ajustan a lo que necesitás. Elegí el que mejor te sirva, y si querés, podés <span class="imp">sumar o quitar funciones</span> según tu idea. Eso sí, mientras más personalizado, más puede variar el precio.</p>
                         <button id="esconderbtntienda" class="ver-planes tiendalink">
                             <span class="circulo" aria-hidden="true">
                                 <span class="icon flecha"></span>
@@ -168,7 +160,7 @@ if (isset($_POST['enviarcorreo'])) {
                     </div>
                     <div data-aos="zoom-out-left">
                         <h3 class="stipos" id="gestion" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Sistemas de Gestión <span class="mas">[+]</span></h3>
-                        <p class="descgestion">Desarrollamos sistemas de gestion. Integramos sistemas propios de nuestros clientes con los desarrollados por nuestro equipo. Ve nuestros planes y escoge el que mas te convenga. Recuerda que puedes agrarle o quitarle caracteristicas a los planes, estas modificaciones aumentaran o disminuirán el precio</p>
+                        <p class="descgestion">Creamos <span class="imp">sistemas de gestión</span> a medida y también <span class="imp">integración</span> con los que ya usás. En <span class="imp">PixelShift</span> podés elegir el plan que mejor se ajuste a tu negocio, o armar uno a tu medida. <span class="imp">Sumá o quitá funciones</span> sin problema, el precio se adapta a lo que necesitás.
                         <button id="esconderbtngestion" class="ver-planes gestionlink">
                             <span class="circulo" aria-hidden="true">
                                 <span class="icon flecha"></span>
@@ -180,7 +172,7 @@ if (isset($_POST['enviarcorreo'])) {
                 <div class="stipos2-container">
                     <div data-aos="zoom-out-left">
                         <h3 class="stipos2" id="web" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Diseño y Paginas Web <span class="mas">[+]</span></h3>
-                        <p class="descweb">Creamos tu pagina web, adaptandonos a tus requisitos para que tu pagina sea la ideal para tu negocio. Ve nuestros planes y escoge el que mas te convenga. Recuerda que puedes agrarle o quitarle caracteristicas a los planes, estas modificaciones aumentaran o disminuirán el precio</p>
+                        <p class="descweb">Diseñamos tu <span class="imp">página web</span> a medida, pensando en lo que realmente necesita tu negocio. En <span class="imp">PixelShift</span> podés elegir el plan que más te convenga o ajustarlo como quieras. <span class="imp">Agregá o quitá funcionalidades</span> según lo que busques, el precio se adapta a vos.
                         <button id="esconderbtnweb" class="ver-planes weblink">
                             <span class="circulo" aria-hidden="true">
                                 <span class="icon flecha"></span>
@@ -198,28 +190,45 @@ if (isset($_POST['enviarcorreo'])) {
         </svg>
         <div class="partes">
             <h2 class="revelartext nombre" data-bg-color="#353535" data-fg-color="white">FUNCIONAMIENTO</h2>
-            <div class="container">
-                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/formulario.png" alt="" loading="lazy">
-                    <h3 class="titulo">CONTACTANOS Y ASESORATE</h3>
-                    <br>
-                    <p class="desc">¡Contáctanos y recibe el asesoramiento que necesitas para llevar tu negocio al siguiente nivel! Estamos aquí para responder todas tus preguntas y ayudarte a encontrar la solución ideal para tu proyecto. Puedes escribirnos a través de nuestro formulario de contacto o directamente por WhatsApp para una comunicación rápida y personalizada. <br> ¡Estamos listos para ayudarte a hacer realidad tus ideas! <br> ‎ </p>
-                </div>
-                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/apoyo.png" alt="" loading="lazy">
-                    <h3 class="titulo">CHARLAMOS Y PRESUPUESTAMOS</h3>
-                    <br>
-                    <p class="desc">Idearemos la mejor manera de llevar a cabo tu proyecto, tomando en cuenta tus necesidades y objetivos. Te ofreceremos un presupuesto personalizado y detallado para que tengas claro todo lo relacionado con la inversión y los servicios que te ofrecemos</p>
-                    <div class="button-container">
-                        <a href="#servicios" class="button --brillo">SERVICIOS</a>
+            <div class="steps-container">
+                <div class="progress-line"></div>
+                <div class="steps-grid">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <img src="https://pixelshft.com/img/formulario.png" alt="Formulario de contacto o WhatsApp para asesoramiento personalizado en PixelShift" class="step-icon">
+                        <div class="step-content">
+                            <h3 class="step-title">Contactanos y Asesorate</h3>
+                            <p class="step-description">
+                                Escribinos por WhatsApp o llená el formulario y te damos el <span class="highlight">asesoramiento</span> que necesitás para tu negocio. <br>
+                                <strong>Rápido</strong>, <strong>personalizado</strong> y <strong>sin vueltas</strong>. ¡Hablemos!
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/codigo.png" alt="" loading="lazy">
-                    <h3 class="titulo">CREAMOS TU CODIGO</h3>
-                    <br>
-                    <p class="desc">Una vez que tengamos claro el proyecto y el presupuesto, comenzaremos con la creación del código. Durante esta fase, trabajaremos de manera eficiente para cumplir con los plazos establecidos, garantizando que cada línea de código esté bien estructurada y sea funcional. <br>
-                        El tiempo estimado de desarrollo depende de la complejidad del proyecto, pero siempre nos comprometemos a entregar resultados en tiempo y forma.</p>
+
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <img src="https://pixelshft.com/img/apoyo.png" alt="Reunión para presupuesto claro y a medida en servicios digitales de PixelShift" class="step-icon">
+                        <div class="step-content">
+                            <h3 class="step-title">Charlamos y Presupuestamos</h3>
+                            <p class="step-description">
+                                Nos contás tu idea, vemos qué necesitás y armamos la mejor forma de hacerlo realidad. 
+                                Te paso un <span class="highlight">presupuesto a medida</span>, claro y sin letra chica. 
+                                <br><strong>Así, simple.</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <img src="https://pixelshft.com/img/codigo.png" alt="Desarrollo web a medida con código limpio y optimizado por PixelShift" class="step-icon">
+                        <div class="step-content">
+                            <h3 class="step-title">Creamos tu Código</h3>
+                            <p class="step-description">
+                                Arrancamos con el desarrollo y nos enfocamos en que todo funcione bien desde el principio. 
+                                <span class="highlight">Código limpio, ordenado y hecho a medida</span> para tu proyecto.    
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="subnombre" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
@@ -228,22 +237,38 @@ if (isset($_POST['enviarcorreo'])) {
             </div>
             <div class="container">
                 <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/foco.png" alt="" loading="lazy">
+                    <img src="https://pixelshft.com/img/foco.png" alt="Diseño web personalizado en Uruguay con enfoque en resultados" loading="lazy">
                     <h3 class="titulo">PORQUE PIXELSHIFT</h3>
                     <br>
-                    <p class="desc">En <span class="imp">PixelShift</span>, entendemos que tu proyecto es único. Por eso, somos especialistas en <span class="imp">diseño web Uruguay</span>, ofreciendo <span class="imp">precios accesibles</span> y <span class="imp">soluciones personalizadas</span> que se adaptan a tus <span class="imp">necesidades específicas</span>, ya sea una <span class="imp">página web</span>, una <span class="imp">tienda online</span> o un <span class="imp">sistema de gestión</span>. Nuestro equipo se dedica a desarrollar <span class="imp">código optimizado</span>, garantizando un <span class="imp">rendimiento eficiente</span> que impulsa tus resultados. También implementamos <span class="imp">estrategias probadas</span> para maximizar el <span class="imp">alcance</span> y el <span class="imp">impacto</span> de tu proyecto, asegurándonos de que conectes con tus <span class="imp">clientes</span> o potencies el desempeño de tu <span class="imp">personal</span></p>
+                    <p class="desc">En <span class="imp">PixelShift</span> sabemos que cada proyecto es distinto. 
+                        Nos especializamos en <span class="imp">diseño web Uruguay</span> y te ofrecemos <span class="imp">precios accesibles</span> con <span class="imp">soluciones personalizadas</span> que realmente se ajustan a tus <span class="imp">necesidades específicas</span>. 
+                        Ya sea que necesites una <span class="imp">página web</span>, una <span class="imp">tienda online</span> o un <span class="imp">sistema de gestión</span>, trabajamos con <span class="imp">código optimizado</span> para que tu sitio funcione rápido y bien. 
+                        Además, aplicamos <span class="imp">estrategias probadas</span> para mejorar el <span class="imp">alcance</span> y el <span class="imp">impacto</span> de tu proyecto, ayudándote a conectar mejor con tus <span class="imp">clientes</span> o a potenciar el trabajo de tu <span class="imp">personal</span>.
+                    </p>
                 </div>
                 <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/diseno.png" alt="" loading="lazy">
+                    <img src="https://pixelshft.com/img/diseno.png" alt="Digitalización de negocios con páginas web, tiendas online y sistemas de gestión" loading="lazy">
                     <h3 class="titulo">DIGITALIZA TU NEGOCIO</h3>
                     <br>
-                    <p class="desc">Hoy en día, <span class="imp">digitalizar tu negocio</span> no es solo una ventaja, ¡es una <span class="imp">necesidad</span>! Ya sea con una <span class="imp">página web</span>, una <span class="imp">tienda online</span>, un <span class="imp">sistema de gestión</span> o servicios de <span class="imp">diseño web en Uruguay</span>, dar el salto al <span class="imp">mundo digital</span> te permite <span class="imp">llegar a más clientes</span>, <span class="imp">mejorar la eficiencia</span> y <span class="imp">estar siempre disponible</span> para tus usuarios. Con una página web, <span class="imp">fortaleces tu presencia</span> y <span class="imp">credibilidad online</span>. Una tienda online <span class="imp">abre nuevas puertas a las ventas</span> y hace tu negocio <span class="imp">accesible en cualquier momento y lugar</span>. Y un sistema de gestión te permite <span class="imp">organizar</span>, <span class="imp">optimizar</span> y <span class="imp">controlar tus operaciones</span>, mejorando la <span class="imp">productividad</span>. Digitalizar tu negocio significa <span class="imp">crecer</span>, ser <span class="imp">más competitivo</span> y ofrecer un <span class="imp">mejor servicio</span>.</p>
+                    <p class="desc">
+                        Hoy en día, <span class="imp">digitalizar tu negocio</span> no es solo una opción, ¡es una <span class="imp">necesidad</span>! 
+                        Ya sea con una <span class="imp">página web</span>, una <span class="imp">tienda online</span>, un <span class="imp">sistema de gestión</span> o cualquier servicio de <span class="imp">diseño web en Uruguay</span>, dar el salto al <span class="imp">mundo digital</span> te ayuda a <span class="imp">llegar a más clientes</span>, <span class="imp">mejorar tu eficiencia</span> y <span class="imp">estar siempre disponible</span>.
+                        Una buena página web <span class="imp">refuerza tu presencia y credibilidad online</span>. 
+                        Una tienda online <span class="imp">abre nuevas oportunidades de venta</span> y te vuelve <span class="imp">accesible 24/7</span>. 
+                        Y un sistema de gestión te permite <span class="imp">organizar, optimizar</span> y <span class="imp">controlar tus procesos</span>, aumentando la <span class="imp">productividad</span>. 
+                        Digitalizar es <span class="imp">crecer</span>, ser <span class="imp">más competitivo</span> y ofrecer un <span class="imp">mejor servicio</span> a tus clientes.
+                    </p>                    
                </div>
                 <div class="caja1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
-                    <img src="https://pixelshft.com/img/busqueda2.png" alt="" loading="lazy">
+                    <img src="https://pixelshft.com/img/busqueda2.png" alt="Optimización SEO y seguridad en desarrollo de software en Uruguay" loading="lazy">
                     <h3 class="titulo">SEGURIDAD Y OPTIMIZACIÓN</h3>
                     <br>
-                    <p class="desc">En nuestro equipo, cada <span class="imp">línea de código</span> cuenta. Nos aseguramos de que nuestras <span class="imp">soluciones</span> no solo cumplan con los más altos <span class="imp">estándares de seguridad</span>, sino que también estén diseñadas para ser <span class="imp">rápidas</span>, <span class="imp">eficientes</span> y <span class="imp">adaptables</span>. Un <span class="imp">código seguro</span> protege tu negocio y a tus clientes, resguardando la <span class="imp">integridad de tus datos</span> frente a posibles amenazas. Además, la <span class="imp">optimización</span> nos permite crear <span class="imp">sistemas ligeros y rápidos</span>, mejorando la <span class="imp">experiencia del usuario</span> y el <span class="imp">rendimiento general</span>. Cuando trabajas con nosotros, tienes la tranquilidad de que estás invirtiendo en una <span class="imp">solución de calidad</span>, <span class="imp">robusta</span> y <span class="imp">preparada para el futuro</span>.</p>
+                    <p class="desc">
+                        Para nosotros, cada <span class="imp">línea de código</span> importa. 
+                        Nuestras <span class="imp">soluciones</span> están pensadas para ser <span class="imp">seguras</span>, <span class="imp">rápidas</span> y <span class="imp">adaptables</span> desde el día uno. 
+                        Un <span class="imp">código seguro</span> protege tu negocio y cuida la <span class="imp">integridad de tus datos</span>, mientras que la <span class="imp">optimización</span> nos permite crear <span class="imp">sistemas ligeros y eficientes</span> que mejoran la <span class="imp">experiencia del usuario</span> y el <span class="imp">rendimiento general</span>. 
+                        Cuando trabajás con nosotros, sabés que estás invirtiendo en una <span class="imp">solución de calidad</span>, <span class="imp">robusta</span> y <span class="imp">lista para el futuro</span>.
+                    </p>
                 </div>
             </div>
             <div class="subnombre" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
@@ -258,7 +283,7 @@ if (isset($_POST['enviarcorreo'])) {
                             <span class="flecha"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#929292" d="m8.59 18.16l5.66-5.66l-5.66-5.66l-.7.71l4.95 4.95l-4.95 4.95z"/></svg></span>
                         </div>
                         <div class="faq-respuesta">
-                            <p>El costo de una página web en 2024 depende del diseño y las funcionalidades. Una página básica cuesta desde $50, mientras que una tienda online o un sistema de gestión puede superar los $1,500. Pide un presupuesto personalizado en PixelShift.</p>
+                            <p>Depende de lo que necesites. Una web básica arranca desde los $50, pero si buscás una <span class="imp">tienda online</span> o un <span class="imp">sistema de gestión</span> más completo, puede superar los $1,500. En PixelShift te armamos un <span class="imp">presupuesto personalizado</span>, sin vueltas.</p>
                         </div>
                     </div>
                     <div class="faq-item">
@@ -267,7 +292,7 @@ if (isset($_POST['enviarcorreo'])) {
                             <span class="flecha"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#929292" d="m8.59 18.16l5.66-5.66l-5.66-5.66l-.7.71l4.95 4.95l-4.95 4.95z"/></svg></span>
                         </div>
                         <div class="faq-respuesta">
-                            <p>Errores como un diseño no responsive, carga lenta o falta de optimización SEO afectan el éxito de un sitio web. Un buen diseño web profesional mejora el posicionamiento y la experiencia del usuario.</p>
+                            <p>Uno de los más típicos es no hacerla <span class="imp">responsive</span> (que no se vea bien en celulares). También una carga lenta o no pensar en el <span class="imp">SEO</span>. Una <span class="imp">página web bien diseñada</span> mejora tu posicionamiento y hace que la gente quiera quedarse.</p>
                         </div>
                     </div>
                     <div class="faq-item">
@@ -276,7 +301,7 @@ if (isset($_POST['enviarcorreo'])) {
                             <span class="flecha"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#929292" d="m8.59 18.16l5.66-5.66l-5.66-5.66l-.7.71l4.95 4.95l-4.95 4.95z"/></svg></span>
                         </div>
                         <div class="faq-respuesta">
-                            <p>Si tu página web no aparece en Google, puede deberse a errores SEO, contenido duplicado o problemas de indexación. Un diseño web optimizado asegura que tu sitio esté visible en buscadores.</p>
+                            <p>Puede ser porque no está bien optimizada para <span class="imp">SEO</span>, tiene contenido duplicado o simplemente Google no la indexó bien. Nosotros nos encargamos de que tu <span class="imp">sitio web</span> tenga visibilidad real en buscadores.</p>
                         </div>
                     </div>
                     <div class="faq-item">
@@ -285,7 +310,7 @@ if (isset($_POST['enviarcorreo'])) {
                             <span class="flecha"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#929292" d="m8.59 18.16l5.66-5.66l-5.66-5.66l-.7.71l4.95 4.95l-4.95 4.95z"/></svg></span>
                         </div>
                         <div class="faq-respuesta">
-                            <p>Por supuesto, podemos analizar tu sitio actual e integrar una tienda online completamente funcional y optimizada para ventas.</p>
+                            <p>Claro que sí. Analizamos tu sitio actual y sumamos una <span class="imp">tienda online</span> funcional, <span class="imp">rápida</span> y pensada para vender desde cualquier dispositivo.</p>
                         </div>
                     </div>
                     <div class="faq-item">
@@ -294,7 +319,7 @@ if (isset($_POST['enviarcorreo'])) {
                             <span class="flecha"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#929292" d="m8.59 18.16l5.66-5.66l-5.66-5.66l-.7.71l4.95 4.95l-4.95 4.95z"/></svg></span>
                         </div>
                         <div class="faq-respuesta">
-                            <p>La optimización SEO es clave para que tu página aparezca en los primeros resultados de búsqueda en Google, atrayendo más visitas y clientes potenciales.</p>
+                            <p>Porque si no estás en Google, es como si no existieras. Con un buen <span class="imp">SEO</span>, tu <span class="imp">página web</span> aparece en los primeros resultados, atraés más visitas y ganás más clientes.</p>
                         </div>
                     </div>
                 </div>
@@ -373,74 +398,7 @@ if (isset($_POST['enviarcorreo'])) {
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            // Configuración del carousel
-            $('.js-slick-carousel').slick({
-                dots: true,
-                infinite: true,
-                speed: 500,
-                fade: true,
-                cssEase: 'linear',
-                autoplay: true,
-                autoplaySpeed: 5000,
-                pauseOnHover: true,
-                pauseOnFocus: true,
-                prevArrow: '<button type="button" class="slick-prev slick-arrow slick-arrow-soft-white slick-arrow-left slick-arrow-centered-y rounded-circle"><i class="fas fa-arrow-left"></i></button>',
-                nextArrow: '<button type="button" class="slick-next slick-arrow slick-arrow-soft-white slick-arrow-right slick-arrow-centered-y rounded-circle"><i class="fas fa-arrow-right"></i></button>',
-                responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        dots: true
-                    }
-                }]
-            });
-            
-            // Función para reiniciar animaciones
-            function resetAnimations($slide) {
-                $slide.find('[data-hs-slick-carousel-animation]').each(function() {
-                    const $element = $(this);
-                    const animationClass = $element.attr('data-hs-slick-carousel-animation');
-                    const delay = $element.attr('data-hs-slick-carousel-animation-delay') || 0;
-                    
-                    // Remover clases de animación
-                    $element.removeClass(animationClass);
-                    
-                    // Aplicar animación después del delay
-                    setTimeout(() => {
-                        $element.addClass(animationClass);
-                    }, parseInt(delay));
-                });
-            }
-            
-            // Manejar eventos del carousel
-            $('.js-slick-carousel').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-                // Remover animaciones del slide actual
-                $(slick.$slides[currentSlide]).find('[data-hs-slick-carousel-animation]').each(function() {
-                    const animationClass = $(this).attr('data-hs-slick-carousel-animation');
-                    $(this).removeClass(animationClass);
-                });
-            });
-            
-            $('.js-slick-carousel').on('afterChange', function(event, slick, currentSlide) {
-                // Aplicar animaciones al nuevo slide
-                resetAnimations($(slick.$slides[currentSlide]));
-            });
-            
-            // Aplicar animaciones iniciales
-            resetAnimations($('.js-slick-carousel .slick-active'));
-            
-            // Soporte para navegación por teclado
-            $(document).keydown(function(e) {
-                if (e.keyCode === 37) { // Flecha izquierda
-                    $('.js-slick-carousel').slick('slickPrev');
-                } else if (e.keyCode === 39) { // Flecha derecha
-                    $('.js-slick-carousel').slick('slickNext');
-                }
-            });
-        });
-    </script>
+    <script src="./js/carousel.js"></script>
     <script src="https://pixelshft.com/js/in.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
